@@ -1,0 +1,24 @@
+<div class="container-rockets-fragmento container">
+    <div class="row">
+        [#list 1..configuration.numbersCards as index]
+        <div class="col-md-4">
+            <div class="card">
+                <lfr-editable id="unique-id" type="image">
+                    <img src="...">
+                </lfr-editable>
+                <div class="card-body">
+                    <lfr-editable id="unique-id" type="text">
+                        This is editable text!
+                    </lfr-editable>
+                    <lfr-editable id="unique-id" type="text">
+                        This is editable text!
+                    </lfr-editable>
+                    <lfr-editable id="unique-id" type="link">
+                        <a href="default-target-url-goes-here">Link text goes here</a>
+                    </lfr-editable>
+                </div>
+            </div>
+        </div>
+        [/#list]
+    </div>
+</div>

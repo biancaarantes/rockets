@@ -1,0 +1,18 @@
+{
+	"fieldSets": [
+		{
+			"fields":[
+				{
+				"name": "numbersCards",
+				"label": "Número de Cards",
+				"description": "number-cards",
+				"type": "text",
+				"typeOptions":{
+					"placeholder": "Placeholder"
+				},
+				"dataType": "int",
+				"defaultValue": "1"},
+			]
+		}
+	]
+}
