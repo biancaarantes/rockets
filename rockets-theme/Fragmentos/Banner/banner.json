@@ -1,0 +1,26 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+			     "name": "pelicula",
+			     "label": "Cor da pelicula",
+			     "description": "color",
+			     "type": "text",
+			     "typeOptions": {
+		           "placeholder": "Placeholder",
+		         },
+		      "dataType": "string";
+		      "defaultValue": "#fff"
+		   },
+				{
+			     "name": "title",
+			     "label": "Cor do Titulo",
+			     "type": "text",
+		      "dataType": "string";
+		      "defaultValue": "#fff"
+		   },
+		  ]
+		}	
+	]
+}

@@ -1,0 +1,33 @@
+.cabecalho {
+
+    background-color: lightgrey;
+
+    .nav-widget ul {
+        list-style-type: none;
+        display: flex;
+
+        li {
+            margin-right: 10px;
+
+            a {
+                color: black;
+                font-weight: bold;
+                font-family: none;
+            }
+        }
+
+    }
+
+
+}
+.portlet-title-text {
+    display: none;
+}
+
+@media (max-width:800px){
+    .cabecalho {
+        .nav-widget ul {
+            display: block;
+        }
+    }
+}

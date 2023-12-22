@@ -1,0 +1,16 @@
+<div class="cards">
+    <div class="row">
+        [#list 1..configuration.qtdcard as index]
+        <div class="col-md-3">
+            <div class="card text-center">
+                <h1 data-lfr-editable-id="titulo-card-${index}" data-lfr-editable-type="text"></h1>
+                <div>
+                    <img src="" alt="" data-lfr-editable-id="imagem-card-${index}" data-lfr-editable-type="image">
+                </div>
+                <a href="" data-lfr-editable-id="link-card-${index}" data-lfr-editable-type="link"
+                    style="background-color: ${configuration.headingColor};"></a>
+            </div>
+        </div>
+        [/#list]
+    </div>
+</div>

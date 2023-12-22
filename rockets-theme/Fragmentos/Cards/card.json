@@ -1,0 +1,21 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "qtdcard",
+                    "label": "quantidade de cards",
+                    "type": "text",
+                    "dataType": "int",
+                    "defaultValue": "1"
+                },
+							{
+                    "name": "headingColor",
+                    "label": "Heading Color",
+                    "type": "colorPicker",
+                    "defaultValue": "#FF0000"
+                }
+            ]
+        }
+    ]
+}
